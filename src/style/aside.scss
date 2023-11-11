@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    width: 10%;
+}
+.kategori-filtre h2{
+    text-align: center;
+}
+.kategori-filtre ul li {
+    list-style: none;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 5px 0 5px;
+    transition: .3s;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.664);
+    &:hover {
+        cursor: pointer;
+        transition: .3s;
+        background-color: #004C75;
+        color: burlywood;
+        }
+}
+.product-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+input {
+    text-align: left;
+    margin: 5px;
+    padding: 3px 60px 3px 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+}
+input[type=submit] {
+    border-radius: 10px;
+    padding: 5px 20px;
+    background: rgba(255, 255, 255, 0.616);
+    border: 2px solid black;
+    &:disabled {
+        visibility: hidden;
+    }
+}
+.product-card li {
+    border-radius: 0px;
+    margin-left: 45%;
+}
+.product-card p {
+    font-size: 20px;
+    color: whitesmoke;
+}
+select {
+    margin: 5px;
+    padding: 3px 30px 3px 4px;
+    border: 1px solid ;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}

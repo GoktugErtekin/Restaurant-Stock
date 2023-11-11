@@ -1,0 +1,26 @@
+table {
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.664);
+    border-collapse: collapse;
+    width: 100%;
+}
+.tablee {
+    width: 75%;
+}
+td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2px;
+}
+td {
+    text-align: left;
+}
+tr:hover {
+        transition: .2s;
+        background-color: rgba(165, 123, 69, 0.493);
+}
+tr:nth-child(even) {
+    background-color: rgb(165, 124, 69);
+    &:hover{
+        transition: .2s;
+        background-color: rgba(165, 123, 69, 0.493);
+    }
+}
