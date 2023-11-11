@@ -5,11 +5,18 @@ Bu proje, restoran sahiplerinin menülerini düzenlemelerine, yemekleri görünt
 
 ## Özellikler
 
-- Menü Listesi: Restoranın mevcut menü öğelerini görüntüleyebilirsiniz.
 - Filtreleme: Belirli kriterlere göre menü öğelerini filtreleyebilirsiniz.
+- ![yemek-filtre](https://github.com/GoktugErtekin/restaurant-stock/assets/130211667/fcf96841-2362-4082-9442-90fb8161a91a)
+
 - Yemek Ekleme: Yeni yemekler ekleyebilirsiniz.
+- ![yemek-ekle](https://github.com/GoktugErtekin/restaurant-stock/assets/130211667/badff9cc-6701-412d-b836-d1235ff7f5af)
+
 - Yemek Düzenleme: Varolan yemekleri düzenleyebilirsiniz.
+- ![yemek-düzenle](https://github.com/GoktugErtekin/restaurant-stock/assets/130211667/c4771c9b-d047-4c7d-b391-cd65448b1b93)
+
 - Yemek Silme: Menüden yemekleri kaldırabilirsiniz.
+- ![yemek-sil](https://github.com/GoktugErtekin/restaurant-stock/assets/130211667/306c6a11-c9d2-41c8-b097-5b4b72838d90)
+
 
 ## Kullanılan Teknolojiler
 
